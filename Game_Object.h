@@ -22,5 +22,4 @@ public:
 	std::string Get_Name();
 
 	sf::Sprite Get_Object_Sprite();
-
 };

@@ -5,3 +5,27 @@ Friendly_NPC::Friendly_NPC(int x1, int x2, int y1, int y2, std::string F_NPC_Nam
 {
 
 }
+sf::Sprite Friendly_NPC::Game_Object::Get_Object_Sprite()
+{
+	return _GameObjectSprite;
+}
+std::string Friendly_NPC::Game_Object::Get_Name()
+{
+	return _Name;
+}
+int Friendly_NPC::Game_Object::Get_X1()
+{
+	return _X1;
+}
+int Friendly_NPC::Game_Object::Get_X2()
+{
+	return _X2;
+}
+int Friendly_NPC::Game_Object::Get_Y1()
+{
+	return _Y1;
+}
+int Friendly_NPC::Game_Object::Get_Y2()
+{
+	return _Y2;
+}
