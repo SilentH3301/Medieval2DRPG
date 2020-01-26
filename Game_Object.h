@@ -5,6 +5,7 @@
 class Game_Object
 {
 public:
+
 	sf::Sprite	_GameObjectSprite;
 	sf::Texture _GameObjectTexture;
 	sf::Image	_GameObjectImage;
@@ -22,4 +23,5 @@ public:
 	std::string Get_Name();
 
 	sf::Sprite Get_Object_Sprite();
+private:
 };
